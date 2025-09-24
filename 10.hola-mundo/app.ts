@@ -1,8 +1,13 @@
 let numberOfLines = 1;
+
+function increseLineNumber() {
+    numberOfLines++;
+}
+
 console.log(`Línea #${numberOfLines}`);
-numberOfLines++;
+increseLineNumber();
 console.log(`Línea #${numberOfLines}`);
-numberOfLines++;
+increseLineNumber();
 console.log(`Línea #${numberOfLines}`);
-numberOfLines+=1;
+increseLineNumber();
 console.log(`Línea #${numberOfLines}`);
