@@ -1,11 +1,10 @@
-let numberOfLines = 0;
+let firstName: string = 'Alejandro';
+let lastName: string = 'Loayza';
+let fullName: string = `${firstName} ${lastName}`;
 
-function increseLineNumber() {
-    numberOfLines++;
-    console.log(`Línea #${numberOfLines}`);
-}
+console.log(fullName);
 
-increseLineNumber();
-increseLineNumber();
-increseLineNumber();
-increseLineNumber();
+let number1 :number = 10;
+let number2 :number = 20;
+
+console.log(number1 + number2);
