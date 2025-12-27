@@ -16,7 +16,18 @@ class Car {
         this.type = 'No type';
         this.manufacturingDate = '00-00-0000'
     }
+
+    turnOn() {
+        if (this.isRunning) return `The car is already on.`;
+
+        if (this.fuelTank <= 0) return `The gas tank is empty.`
+        
+        this.isRunning = true;
+        return `The car is on.`;
+    }
 }
 
 let myCar = new Car();
 console.log(myCar);
+myCar.turnOn();
+myCar.turnOn();
